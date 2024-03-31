@@ -12,7 +12,7 @@
 .right {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
+    align-items: center; 
     background-color: white;
     border: 1px solid rgb(219, 219, 219);
     font-family: -apple-system;
@@ -27,13 +27,13 @@
     width: 175px;
     height: 51px;
     background-repeat: no-repeat;
-    margin-bottom: 20px; /* Add margin between logo and inputs */
+    margin-bottom: 20px; 
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
+    align-items: center; 
     
 }
 
@@ -56,7 +56,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
     transform: scale(1.1);
 }
 
@@ -92,3 +92,7 @@
     padding-top: 20px;
 }
 
+.navbar span{
+color: gray;
+padding: 10px;
+}
